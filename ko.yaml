@@ -29,7 +29,7 @@ auth_fail_dialog:
 
 home:
   home_care:
-    title: 홈케어 하마
+    title: 온라인 업데이트 테스트
     tooltip: 간편하게 견적받고 시공을 결정 하세요.
     menu:
       big_button: 수리·보수
