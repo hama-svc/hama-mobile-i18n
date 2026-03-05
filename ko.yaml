@@ -1,361 +1,361 @@
 common:
   button:
-    ok: 확인
-    close: 닫기
-    cancel: 취소
-    later: 다음에
-    create_account: 새 계정 만들기
-    pick_gallery: 앨범에서 선택하기
-    pick_camera: 카메라 촬영하기
+    ok: "확인"
+    close: "닫기"
+    cancel: "취소"
+    later: "다음에"
+    create_account: "새 계정 만들기"
+    pick_gallery: "앨범에서 선택하기"
+    pick_camera: "카메라 촬영하기"
   upload_photo:
-    title: 사진 업로드 하기
-    message: 현장 사진을 올려주시면 필요한\n수리범위를 더 정확하게 파악할 수 있어요
-  resident: 거주 중
-  vacant: 공실
+    title: "사진 업로드 하기"
+    message: "현장 사진을 올려주시면 필요한\n수리범위를 더 정확하게 파악할 수 있어요"
+  resident: "거주 중"
+  vacant: "공실"
   price: "${price: NumberFormat('#,###')}"
   price_with_currency: "${price: NumberFormat('#,###')} 원"
   cancel_accept_dialog:
-    title: 시공없이 마무리 할까요?
-    message: 모든 일정은 취소되며 시공은 진행되지 않아요.\n언제든 다시 견적부터 시작할 수 있어요.
+    title: "시공없이 마무리 할까요?"
+    message: "모든 일정은 취소되며 시공은 진행되지 않아요.\n언제든 다시 견적부터 시작할 수 있어요."
     button:
-      negative: 그만 할래요
-      positive: 좀 더 고민할게요
+      negative: "그만 할래요"
+      positive: "좀 더 고민할게요"
   date: "${date: DateFormat('yyyy.MM.dd')}"
 
 error:
-  invalid_url: 잘못된 형식의 URL 입니다.
+  invalid_url: "잘못된 형식의 URL 입니다."
 
-splash: 집 관리의 시작, 하마
+splash: "집 관리의 시작, 하마"
 
 onboarding:
   button:
-    skip: skip
-    start: 하마 시작하기
+    skip: "skip"
+    start: "하마 시작하기"
   messages:
-    - main: 집 관리, 올인원 케어\n이제 하마 하나로 끝
-    - main: A/S까지 책임지는 하마\n안심하고 맡기세요
-    - main: 언제든 필요할 때 바로,\n가격도 미리 확인 가능
-    - main: 하마와 함께
-      sub: 지금부터 우리 집\n관리를 시작해 볼까요?
+    - main: "집 관리, 올인원 케어\n이제 하마 하나로 끝"
+    - main: "A/S까지 책임지는 하마\n안심하고 맡기세요"
+    - main: "언제든 필요할 때 바로,\n가격도 미리 확인 가능"
+    - main: "하마와 함께"
+      sub: "지금부터 우리 집\n관리를 시작해 볼까요?"
 
 auth_fail_dialog:
-  title: 본인인증 실패
+  title: "본인인증 실패"
 
 home:
   home_care:
-    title: 홈케어 하마
-    tooltip: 간편하게 견적받고 시공을 결정 하세요.
+    title: "홈케어 하마"
+    tooltip: "간편하게 견적받고 시공을 결정 하세요."
     menu:
-      big_button: 수리·보수
-      small_button1: 청소
-      small_button2: 인테리어
+      big_button: "수리·보수"
+      small_button1: "청소"
+      small_button2: "인테리어"
     sub_menus: [ 레이디, 긴급출동, A/S요청, 펫 가구 ]
   introduction:
-    title: 소개 하마
+    title: "소개 하마"
     menu:
       house_master:
-        title: 하우스 마스터
-        description: 하마가 직접 검증한 믿을 수 있는 전문가
-      how_to_use: 이용방법
-      tip: 내 집 관리 TIP
+        title: "하우스 마스터"
+        description: "하마가 직접 검증한 믿을 수 있는 전문가"
+      how_to_use: "이용방법"
+      tip: "내 집 관리 TIP"
   construction:
-    title: 시공 하마
+    title: "시공 하마"
   faq:
-    title: 궁금 하마
+    title: "궁금 하마"
     contents:
-      - q: 하마는 어떤 서비스인가요?
-        a: 하마는 수리, 청소, 인테리어 등 집과 관련된 서비스를 한 번에 신청할 수 있는 홈케어 플랫폼입니다.\n전문 하우스마스터가 매칭되어 편리하고 안전하게 서비스를 제공합니다.
-      - q: 서비스 어떻게 이용 하나요?
-        a: 하마 앱에서 원하는 서비스를 선택한 뒤,\n시공 정보 입력 → 견적 확인 → 시공결정 → 시공진행 → 결제 순으로 간편하게 신청할 수 있습니다.
-      - q: 방문 전 전화 상담이 가능한가요?
-        a: 서비스 특성상 추가 정보 확인이 필요한 경우 담당자가 사전 연락을 드릴 수 있습니다.\n언제든 하마 고객센터를 (1533-0474) 통해 상담이 가능합니다.
-      - q: 서비스 비용은 어떻게 결정되나요?
-        a: 견적은 서비스 유형과 면적/작업 범위에 따라 책정됩니다.\n현장 상황에 따라 추가 비용이 발생할 수 있으며, 사전 안내 후 진행됩니다.\n견적을 확인 후 고객님이 시공 여/부를 결정 합니다.
-      - q: 결제는 언제 이루어지나요?
-        a: 시공 진행 완료 후 결제로 진행됩니다.\n원하실 경우 시공 진행중 언제든 하마 앱을 통해 결제를 하실 수 있습니다.
+      - q: "하마는 어떤 서비스인가요?"
+        a: "하마는 수리, 청소, 인테리어 등 집과 관련된 서비스를 한 번에 신청할 수 있는 홈케어 플랫폼입니다.\n전문 하우스마스터가 매칭되어 편리하고 안전하게 서비스를 제공합니다."
+      - q: "서비스 어떻게 이용 하나요?"
+        a: "하마 앱에서 원하는 서비스를 선택한 뒤,\n시공 정보 입력 → 견적 확인 → 시공결정 → 시공진행 → 결제 순으로 간편하게 신청할 수 있습니다."
+      - q: "방문 전 전화 상담이 가능한가요?"
+        a: "서비스 특성상 추가 정보 확인이 필요한 경우 담당자가 사전 연락을 드릴 수 있습니다.\n언제든 하마 고객센터를 (1533-0474) 통해 상담이 가능합니다."
+      - q: "서비스 비용은 어떻게 결정되나요?"
+        a: "견적은 서비스 유형과 면적/작업 범위에 따라 책정됩니다.\n현장 상황에 따라 추가 비용이 발생할 수 있으며, 사전 안내 후 진행됩니다.\n견적을 확인 후 고객님이 시공 여/부를 결정 합니다."
+      - q: "결제는 언제 이루어지나요?"
+        a: "시공 진행 완료 후 결제로 진행됩니다.\n원하실 경우 시공 진행중 언제든 하마 앱을 통해 결제를 하실 수 있습니다."
   bottom:
     card:
       guest:
-        title: 내 집 관리 시작하기
-        message: 내 집 정보를 등록하면\n하마가 집에 맞는 관리 혜택을 챙겨드려요.
-      default_house_name: MY HOME
-      address_is_empty: 설정된 정보가 없어요
-      received: 접수 완료
-      diagnosis: 하우스 마스터 진단
-      estimate: 견적 도착
-      decide: 시공 결정
-      in_progress: 시공 진행
-      payment: 비용 결제
-      visit: 하우스 마스터 방문 예정
-    recommend: 추천 하마
+        title: "내 집 관리 시작하기"
+        message: "내 집 정보를 등록하면\n하마가 집에 맞는 관리 혜택을 챙겨드려요."
+      default_house_name: "MY HOME"
+      address_is_empty: "설정된 정보가 없어요"
+      received: "접수 완료"
+      diagnosis: "하우스 마스터 진단"
+      estimate: "견적 도착"
+      decide: "시공 결정"
+      in_progress: "시공 진행"
+      payment: "비용 결제"
+      visit: "하우스 마스터 방문 예정"
+    recommend: "추천 하마"
     start_service:
-      title: 진행 하마
-      description: 지금 꼭 필요한 관리부터 시작해 보세요.
+      title: "진행 하마"
+      description: "지금 꼭 필요한 관리부터 시작해 보세요."
     histories:
-      title: 기록 하마
-      total: 전체 관리 내역
-      count: $count 건
+      title: "기록 하마"
+      total: "전체 관리 내역"
+      count: "$count 건"
       recent:
-        title: 최근 관리
-        is_empty: 아직 관리 내역이 없어요
-        done: 완료
+        title: "최근 관리"
+        is_empty: "아직 관리 내역이 없어요"
+        done: "완료"
         completed_at: "${date: DateFormat('yyyy.MM.dd')}"
   dialog:
     create_account_completed:
-      title: 이제 내 집을 설정해 볼까요?
-      message: 집 정보를 설정하면\n우리집에 맞는 서비스를 추천해 드려요.
-      button: 집 설정하기
+      title: "이제 내 집을 설정해 볼까요?"
+      message: "집 정보를 설정하면\n우리집에 맞는 서비스를 추천해 드려요."
+      button: "집 설정하기"
     request_completed:
-      title: 신청이 완료되었어요
-      message: 신청 내역과 진행 상황은\n내 집 관리에서 언제든 확인하실 수 있어요
-      button: 내 집 관리 확인하기
+      title: "신청이 완료되었어요"
+      message: "신청 내역과 진행 상황은\n내 집 관리에서 언제든 확인하실 수 있어요"
+      button: "내 집 관리 확인하기"
 
 drawer:
-  title: 더보기
-  account_info: 계정 정보
-  my_house: 내 집 설정
-  coupon: 쿠폰
-  notice: 공지사항
-  faq: 자주 묻는 질문
-  app_info: 앱 정보
-  terms: 이용약관
-  open_source_licenses: 오픈소스 라이선스
+  title: "더보기"
+  account_info: "계정 정보"
+  my_house: "내 집 설정"
+  coupon: "쿠폰"
+  notice: "공지사항"
+  faq: "자주 묻는 질문"
+  app_info: "앱 정보"
+  terms: "이용약관"
+  open_source_licenses: "오픈소스 라이선스"
 
 account_info:
-  title: 계정정보
+  title: "계정정보"
   label:
-    phone: 휴대전화 번호
-    auth_date: 본인인증
-    sign_in_date: 가입일
+    phone: "휴대전화 번호"
+    auth_date: "본인인증"
+    sign_in_date: "가입일"
   button:
-    change_phone: 변경
-    sign_out: 회원탈퇴
-    log_out: 로그아웃
+    change_phone: "변경"
+    sign_out: "회원탈퇴"
+    log_out: "로그아웃"
   logout_dialog:
-    title: 정말 로그아웃 하시겠어요?
-    message: 로그아웃 시 계정이 해제되며, 재로그인 시 연락처 인증을 다시 진행해야 해요.
-    button: 로그아웃
+    title: "정말 로그아웃 하시겠어요?"
+    message: "로그아웃 시 계정이 해제되며, 재로그인 시 연락처 인증을 다시 진행해야 해요."
+    button: "로그아웃"
 
 change_phone:
-  title: 변경된 번호로 본인인증을 해주세요
-  description: 휴대폰 번호를 변경 하려면\n본인인증이 필요해요.
-  button: 번호 변경 인증하기
+  title: "변경된 번호로 본인인증을 해주세요"
+  description: "휴대폰 번호를 변경 하려면\n본인인증이 필요해요."
+  button: "번호 변경 인증하기"
 
 app_info:
-  title: 앱정보
+  title: "앱정보"
   version:
-    label: 버전 정보
-    lastest_version: 최신버전
-    update: 업데이트
+    label: "버전 정보"
+    lastest_version: "최신버전"
+    update: "업데이트"
   company:
-    label: 사업자명
-    content: 주식회사 수리홈즈 파트너스
+    label: "사업자명"
+    content: "주식회사 수리홈즈 파트너스"
   ceo:
-    label: 대표
-    content: 남 상 민
+    label: "대표"
+    content: "남 상 민"
   tel:
-    label: 대표번호
-    content: 1533-0474
+    label: "대표번호"
+    content: "1533-0474"
   address:
-    label: 주소
-    content: 서울특별시 강남구 선릉로111길 38-10, 지하1층
+    label: "주소"
+    content: "서울특별시 강남구 선릉로111길 38-10, 지하1층"
   registration_number:
-    label: 등록번호
-    content: 사업자등록록번호 884-81-01876\n통신판매업신고 제 2021-서울강남-05938 호
+    label: "등록번호"
+    content: "사업자등록록번호 884-81-01876\n통신판매업신고 제 2021-서울강남-05938 호"
 
 login:
-  title: 내 집 관리 시작
+  title: "내 집 관리 시작"
   content:
-    title(rich): ${highlight(하)}우스 ${highlight(마)}스터
-    description: 30초 인증으로 내 집 관리를 시작해 보세요
+    title(rich): "${highlight(하)}우스 ${highlight(마)}스터"
+    description: "30초 인증으로 내 집 관리를 시작해 보세요"
   buttons:
-    login: 로그인
+    login: "로그인"
   bottom_sheet:
-    title: 하마 이용을 위해 동의가 필요해요
-    accept_all: 모두 동의
-    accept_all_description: 서비스 이용에 필수적인 최소한의 개인정보 수집 및 이용, 본인확인, 마케팅 정보 수신(선택), 맞춤형 광고 수신(선택)을 포함 합니다.
-    terms: (필수) 서비스 이용 약관
-    privacy: (필수) 개인정보 수집 및 이용
-    over14: (필수) 만 14세 이상
-    verification: (필수) 본인확인서비스 동의사항
-    marketing: (선택) 맞춤형 광고 목적 개인정보 수집 및 이용
+    title: "하마 이용을 위해 동의가 필요해요"
+    accept_all: "모두 동의"
+    accept_all_description: "서비스 이용에 필수적인 최소한의 개인정보 수집 및 이용, 본인확인, 마케팅 정보 수신(선택), 맞춤형 광고 수신(선택)을 포함 합니다."
+    terms: "(필수) 서비스 이용 약관"
+    privacy: "(필수) 개인정보 수집 및 이용"
+    over14: "(필수) 만 14세 이상"
+    verification: "(필수) 본인확인서비스 동의사항"
+    marketing: "(선택) 맞춤형 광고 목적 개인정보 수집 및 이용"
 
 auth_phone:
-  title: 휴대폰 번호를 입력해 주세요
+  title: "휴대폰 번호를 입력해 주세요"
   input:
     phone:
-      label: 휴대폰 번호
-      hint: 010-0000-0000
-      error: 휴대폰 번호를 모두 입력해주세요.
+      label: "휴대폰 번호"
+      hint: "010-0000-0000"
+      error: "휴대폰 번호를 모두 입력해주세요."
     auth_code:
-      label: 인증번호 입력
-      retry: 다시 받기
-      retry_ok: 새 인증번호를 보내드렸어요.
-      retry_interval: 인증번호는 30초 후 다시 요청할 수 있어요.
-      count_down: 입력 시간 $countDown
-      expired: 인증번호가 만료되었어요. 다시 받아주세요.
+      label: "인증번호 입력"
+      retry: "다시 받기"
+      retry_ok: "새 인증번호를 보내드렸어요."
+      retry_interval: "인증번호는 30초 후 다시 요청할 수 있어요."
+      count_down: "입력 시간 $countDown"
+      expired: "인증번호가 만료되었어요. 다시 받아주세요."
   guide:
-    phone: 휴대폰 인증에 어려움있나요?
-    auth_code: 인증번호가 오지 않나요?
+    phone: "휴대폰 인증에 어려움있나요?"
+    auth_code: "인증번호가 오지 않나요?"
   bottom_button:
-    request_auth_number: 인증번호 받기
-    login: 로그인 하기
+    request_auth_number: "인증번호 받기"
+    login: "로그인 하기"
   not_found_account_dialog:
-    title: 가입된 계정을 찾을수 없어요
-    message: 입력해 주신 번호로 가입된 계정이 없어요.\n이미 가입하셨다면 본인인증으로 계정을 찾을 수 있어요.
-    main_button: 내 계정 찾기
+    title: "가입된 계정을 찾을수 없어요"
+    message: "입력해 주신 번호로 가입된 계정이 없어요.\n이미 가입하셨다면 본인인증으로 계정을 찾을 수 있어요."
+    main_button: "내 계정 찾기"
   new_device_dialog:
-    title: 새로운 기기에서 접속하셨어요
-    message: 혹시 모를 부정 사용을 막기 위해\n본인인증 후 로그인을 진행해 주세요.
-    main_button: 로그인 하기
+    title: "새로운 기기에서 접속하셨어요"
+    message: "혹시 모를 부정 사용을 막기 위해\n본인인증 후 로그인을 진행해 주세요."
+    main_button: "로그인 하기"
 
 auth_select_account:
-  title: 이미 가입된 계정을 찾았어요
+  title: "이미 가입된 계정을 찾았어요"
   card:
     registered_at: "가입일: ${date: DateFormat('yyyy.M.d')}"
-  button: 내 계정으로 이용하기
+  button: "내 계정으로 이용하기"
 
 auth_not_found_account:
-  title: 가입된 계정을 찾을 수 없어요
-  description: 인증한 정보로 가입된 정보가 없어요.\n처음 이용하신다면 새 계정을 만들어 이용해주세요.
+  title: "가입된 계정을 찾을 수 없어요"
+  description: "인증한 정보로 가입된 정보가 없어요.\n처음 이용하신다면 새 계정을 만들어 이용해주세요."
 
 sign_out:
-  title: 하마를 떠나시는 이유가 있을까요?
-  description: 불편했던 점을 알려주시면\n더 나은 하마가 되기 위해 귀 기울이겠습니다.
+  title: "하마를 떠나시는 이유가 있을까요?"
+  description: "불편했던 점을 알려주시면\n더 나은 하마가 되기 위해 귀 기울이겠습니다."
   reasons:
-    - 아직 이용할 일이 없어요
-    - 원하는 서비스가 없었어요
-    - 가격이 조금 부담됐어요
-    - 이용 과정이 불편했어요
-    - 기대와 달랐어요
-    - 다른 서비스를 이용하고 있어요
-    - 잠시 쉬고 싶어요
-    - 서비스 품질이 기대에 못 미쳤어요
-    - 기타 사유
-  etc_hint: 기타 의견을 입력해주세요
-  button: 계정 삭제
+    - "아직 이용할 일이 없어요"
+    - "원하는 서비스가 없었어요"
+    - "가격이 조금 부담됐어요"
+    - "이용 과정이 불편했어요"
+    - "기대와 달랐어요"
+    - "다른 서비스를 이용하고 있어요"
+    - "잠시 쉬고 싶어요"
+    - "서비스 품질이 기대에 못 미쳤어요"
+    - "기타 사유"
+  etc_hint: "기타 의견을 입력해주세요"
+  button: "계정 삭제"
   dialog:
-    title: 정말 계정을 삭제 할까요?
-    message: 계정이 삭제되면 이용 기록과 혜택이 모두 사리지고 다시 복구할 수 없어요.
+    title: "정말 계정을 삭제 할까요?"
+    message: "계정이 삭제되면 이용 기록과 혜택이 모두 사리지고 다시 복구할 수 없어요."
 
 service_progress:
   create_at: "${date: DateFormat('yyyy.MM.dd')}"
   accepted:
-    title: 접수 완료
-    description: 신청이 완료되었어요 😊\n하우스 마스터가 곧 확인할게요
-    message: 신청이 완료되었어요
+    title: "접수 완료"
+    description: "신청이 완료되었어요 😊\n하우스 마스터가 곧 확인할게요"
+    message: "신청이 완료되었어요"
   diagnosis:
-    title: 하우스 마스터 진단
-    description: 추가 확인이 필요할 경우,\n하우스 마스터가 전화를 드릴 수 있어요 📞
-    message: 하우스 마스터가 신청 내용을 확인하고 있어요
+    title: "하우스 마스터 진단"
+    description: "추가 확인이 필요할 경우,\n하우스 마스터가 전화를 드릴 수 있어요 📞"
+    message: "하우스 마스터가 신청 내용을 확인하고 있어요"
   estimate:
-    title: 견적 발송
-    description: 견적이 발송되었어요 📄\n견적을 먼저 확인해 보세요
-    message: 견적이 도착했어요
-    sub_message: 견적을 확인하고 시공을 진행해 보세요 😊
-    button: 견적을 확인할게요
+    title: "견적 발송"
+    description: "견적이 발송되었어요 📄\n견적을 먼저 확인해 보세요"
+    message: "견적이 도착했어요"
+    sub_message: "견적을 확인하고 시공을 진행해 보세요 😊"
+    button: "견적을 확인할게요"
   confirmed:
-    title: 시공 결정
-    description: 시공을 진행할까요?\n7일 안에 진행 여부만 선택해 주세요
-    message: 시공을 진행해 볼까요?
-    sub_message: 발송된 견적으로 시공이 진행돼요 😊
+    title: "시공 결정"
+    description: "시공을 진행할까요?\n7일 안에 진행 여부만 선택해 주세요"
+    message: "시공을 진행해 볼까요?"
+    sub_message: "발송된 견적으로 시공이 진행돼요 😊"
     button:
-      accept: 시공 진행할게요
-      reject: 안 할래요
+      accept: "시공 진행할게요"
+      reject: "안 할래요"
   in_progress:
-    title: 시공 진행
-    description: 방문 일정을 확인하고 🛠️\n전문 시공팀이 직접 방문할 예정이에요
-    message: 하우스 마스터와 조율 하고 시공을 진행돼요
-    sub_message: 방문 일정 조율과 세부 진행 안내를 도와드릴게요 😊
+    title: "시공 진행"
+    description: "방문 일정을 확인하고 🛠️\n전문 시공팀이 직접 방문할 예정이에요"
+    message: "하우스 마스터와 조율 하고 시공을 진행돼요"
+    sub_message: "방문 일정 조율과 세부 진행 안내를 도와드릴게요 😊"
   payment:
-    title: 비용 결제
-    description: 시공이 완료되었어요!\n결제를 진행하시면 모든 과정이 마무리 됩니다 💳
-    message: 시공이 완료되었어요
-    sub_message: 이제 결제를 진행하시면 거래가 완료 돼요😊
-    button: 결제하기
+    title: "비용 결제"
+    description: "시공이 완료되었어요!\n결제를 진행하시면 모든 과정이 마무리 됩니다 💳"
+    message: "시공이 완료되었어요"
+    sub_message: "이제 결제를 진행하시면 거래가 완료 돼요😊"
+    button: "결제하기"
   visit:
-    title: 방문 예정
-    message: 방문 예정 일정이 있어요
+    title: "방문 예정"
+    message: "방문 예정 일정이 있어요"
     sub_message: "방문 일시 : ${date: DateFormat('M월 d일(E) a h시')}\n하우스 마스터 : $name ($phone)"
   accept_question:
-    title: 추가 질문 도착
-    message: 추가 질문이 도착했어요
-    sub_message: 정확한 견적을 위해 몇가지 확인이 필요해요😊
-    button: 질문 확인하기
+    title: "추가 질문 도착"
+    message: "추가 질문이 도착했어요"
+    sub_message: "정확한 견적을 위해 몇가지 확인이 필요해요😊"
+    button: "질문 확인하기"
   button:
-    request_info: 신청 정보
-    estimate: 견적서
+    request_info: "신청 정보"
+    estimate: "견적서"
 
 my_house:
-  title: 내 집 설정
+  title: "내 집 설정"
   top_card:
-    title: 한 번 설정으로\n더 정확하고, 더 쉽게 관리할 수 있어요
-    description: 설정된 정보는 견적, 시공 추천에만 활용돼요
-    button: 내 집 정보 등록하기
+    title: "한 번 설정으로\n더 정확하고, 더 쉽게 관리할 수 있어요"
+    description: "설정된 정보는 견적, 시공 추천에만 활용돼요"
+    button: "내 집 정보 등록하기"
   name:
-    title: 집 이름을 지어주세요
-    hint: ex 하마 하우스, 상큼한 하우스, 우리집
+    title: "집 이름을 지어주세요"
+    hint: "ex 하마 하우스, 상큼한 하우스, 우리집"
   address:
-    title: 주소를 알려주세요
+    title: "주소를 알려주세요"
     button:
-      add_new: 새 주소 입력하기
-      change: 주소 변경할게요
-  space_type: 어떤 형태의 공간인가요?
-  feature: 특징을 알려주세요
-  purpose: 어떤 목적으로 사용중 인가요?
-  size: 공간의 크기를 알려주세요
+      add_new: "새 주소 입력하기"
+      change: "주소 변경할게요"
+  space_type: "어떤 형태의 공간인가요?"
+  feature: "특징을 알려주세요"
+  purpose: "어떤 목적으로 사용중 인가요?"
+  size: "공간의 크기를 알려주세요"
 
 space_types:
-  apt: 아파트
-  officetel: 오피스텔
-  villa: 빌라/다가구
-  detached_house: 단독주택
-  commercial_office: 상가/사무실
-  etc: 기타
+  apt: "아파트"
+  officetel: "오피스텔"
+  villa: "빌라/다가구"
+  detached_house: "단독주택"
+  commercial_office: "상가/사무실"
+  etc: "기타"
 
 features:
-  old_house: 오래된 집
-  one_person_household: 1인 가구
-  has_children: 아이가 있어요
-  weak_insulation: 단열이 약해요
-  has_pets: 반려동물
-  moisture_mold_problem: 습기·곰팡이 문제
-  ventilation_smell_problem: 환기·냄새 문제
+  old_house: "오래된 집"
+  one_person_household: "1인 가구"
+  has_children: "아이가 있어요"
+  weak_insulation: "단열이 약해요"
+  has_pets: "반려동물"
+  moisture_mold_problem: "습기·곰팡이 문제"
+  ventilation_smell_problem: "환기·냄새 문제"
 
 purposes:
-  actual_residence: 실거주
-  rental: 임대목적
-  secondary_house: 세컨 하우스
-  commercial_space: 상업공간
-  etc: 기타
+  actual_residence: "실거주"
+  rental: "임대목적"
+  secondary_house: "세컨 하우스"
+  commercial_space: "상업공간"
+  etc: "기타"
 
 sizes:
-  under_10: 10평 이하 (33m²)
-  11_15: 11~15평 (34~49m²)
-  16_20: 16~20평 (50~66m²)
-  21_25: 21~25평 (67~82m²)
-  26_30: 26~30평 (83~99m²)
-  31_35: 31~35평 (100~115m²)
-  36_40: 36~40평 (116~132m²)
-  41_45: 41~45평 (133~148m²)
-  46_50: 46~50평 (149~165m²)
-  over_50: 51평 이상 (166m²~)
-  dont_know: 잘 모르겠어요
+  under_10: "10평 이하 (33m²)"
+  11_15: "11~15평 (34~49m²)"
+  16_20: "16~20평 (50~66m²)"
+  21_25: "21~25평 (67~82m²)"
+  26_30: "26~30평 (83~99m²)"
+  31_35: "31~35평 (100~115m²)"
+  36_40: "36~40평 (116~132m²)"
+  41_45: "41~45평 (133~148m²)"
+  46_50: "46~50평 (149~165m²)"
+  over_50: "51평 이상 (166m²~)"
+  dont_know: "잘 모르겠어요"
 
 address:
-  title: 주소 입력
+  title: "주소 입력"
   address:
-    label: 주소를 입력해 주세요
-    hint: 주소를 검색해주세요
+    label: "주소를 입력해 주세요"
+    hint: "주소를 검색해주세요"
   detail_address:
-    label: 상세주소
-    hint: 상세주소를 입력해 주세요
-    error: 상세주소를 입력해 주세요
-  button: 저장하기
+    label: "상세주소"
+    hint: "상세주소를 입력해 주세요"
+    error: "상세주소를 입력해 주세요"
+  button: "저장하기"
   search:
-    title: 주소를 입력해 주세요
-    hint: 도로명, 건물명, 지번검색
-    description: 도로명+건물번호로 검색하면 더 정확해요
+    title: "주소를 입력해 주세요"
+    hint: "도로명, 건물명, 지번검색"
+    description: "도로명+건물번호로 검색하면 더 정확해요"
     exam:
       [
         [ "역삼 개나리 아파트", "(건물명,아파트명)" ],
@@ -364,153 +364,153 @@ address:
       ]
   message:
     too_many:
-      title: 검색 결과가 많습니다.
-      message: 더욱 정확한 결과를 보려면 [도로명+건물번호], [지역명+지번],[지역명+건물명]을 검색해 주세요
+      title: "검색 결과가 많습니다."
+      message: "더욱 정확한 결과를 보려면 [도로명+건물번호], [지역명+지번],[지역명+건물명]을 검색해 주세요"
     not_supported:
-      title: 입력하신 주소는 서비스 지역이 아닙니다
-      message: 현재는 서울·분당 지역에서만 서비스를 제공하고 있어요\n다른 지역도 곧 만나보실 수 있게 준비 중이에요 😊
+      title: "입력하신 주소는 서비스 지역이 아닙니다"
+      message: "현재는 서울·분당 지역에서만 서비스를 제공하고 있어요\n다른 지역도 곧 만나보실 수 있게 준비 중이에요 😊"
     network_error:
-      title: 인터넷 연결이 원활하지 않습니다.
-      message: 네트워크 상태를 확인한 뒤 다시 시도해 주세요 😊
+      title: "인터넷 연결이 원활하지 않습니다."
+      message: "네트워크 상태를 확인한 뒤 다시 시도해 주세요 😊"
     not_found:
-      title: 입력하신 주소를 찾을 수 없어요
-      message: 서비스 지역(서울,분당) 외 주소는 검색 되지 않습니다
-      sub_message: 더욱 정확한 결과를 보려면 도로명+건물번호, 지역명+지번,지역명+건물명을 검색해 주세요
+      title: "입력하신 주소를 찾을 수 없어요"
+      message: "서비스 지역(서울,분당) 외 주소는 검색 되지 않습니다"
+      sub_message: "더욱 정확한 결과를 보려면 도로명+건물번호, 지역명+지번,지역명+건물명을 검색해 주세요"
   result:
-    address: '$zipNo $address'
-    number_address: '[지번] $address'
+    address: "$zipNo $address"
+    number_address: "[지번] $address"
 
 request:
   repair:
-    title: 수리·보수
+    title: "수리·보수"
     card:
-      title: 하마에서 이런 수리·보수가 가능해요
-      message: 작은 수리부터 부분 시공까지\n하마의 수리·보수를 미리 확인해 보세요.
-    category_label: 어떤 수리가 필요하세요?
+      title: "하마에서 이런 수리·보수가 가능해요"
+      message: "작은 수리부터 부분 시공까지\n하마의 수리·보수를 미리 확인해 보세요."
+    category_label: "어떤 수리가 필요하세요?"
   interior:
-    title: 인테리어
+    title: "인테리어"
     card:
-      title: 하마에서 이런 인테리어가 가능해요
-      message: 리모델링 부터 전체 인테리어 까지\n하마의 인테리어를 미리 확인해 보세요.
-    category_label: 어떤 인테리어가 필요하세요?
+      title: "하마에서 이런 인테리어가 가능해요"
+      message: "리모델링 부터 전체 인테리어 까지\n하마의 인테리어를 미리 확인해 보세요."
+    category_label: "어떤 인테리어가 필요하세요?"
   cleaning:
-    title: 청소·정리
+    title: "청소·정리"
     card:
-      title: 하마에서 이런 청소·정리가 가능해요
-      message: 간단한 정리부터 특수 청소까지\n하마의 청소·정리를 미리 확인해 보세요.
-    category_label: 어떤 청소·정리가 필요하세요?
+      title: "하마에서 이런 청소·정리가 가능해요"
+      message: "간단한 정리부터 특수 청소까지\n하마의 청소·정리를 미리 확인해 보세요."
+    category_label: "어떤 청소·정리가 필요하세요?"
   common:
     label:
-      question: ${categoryName}시 체크할 정보가 있어요
-      address: 시공할 주소를 알려주세요
-      address_check: 시공할 주소를 확인해주세요
-      image_and_comment: 현장 사진이나 참고할 내용이 있다면 알려주세요
-      place_type_title: 어떤 형태의 공간인가요?
-      is_resident_title: 거주 중 이신가요??
+      question: "${categoryName}시 체크할 정보가 있어요"
+      address: "시공할 주소를 알려주세요"
+      address_check: "시공할 주소를 확인해주세요"
+      image_and_comment: "현장 사진이나 참고할 내용이 있다면 알려주세요"
+      place_type_title: "어떤 형태의 공간인가요?"
+      is_resident_title: "거주 중 이신가요??"
     button:
-      done_select: 모두 선택했어요
-      input_address: 새 주소 입력하기
-      change_address: 주소 변경할게요
-      confirm_address: 이 주소가 맞아요
-      send: 신청하기
+      done_select: "모두 선택했어요"
+      input_address: "새 주소 입력하기"
+      change_address: "주소 변경할게요"
+      confirm_address: "이 주소가 맞아요"
+      send: "신청하기"
     answer:
-      text_hint: 내용을 입력해주세요
-    upload_photo_message: 현장 사진을 올려주시면 필요한\n${category}범위를 더 정확하게 파악할 수 있어요
-    comment_hint: ${category}할 위치, 증상, 원하는 일정등을 자유롭게 적어주세요
+      text_hint: "내용을 입력해주세요"
+    upload_photo_message: "현장 사진을 올려주시면 필요한\n${category}범위를 더 정확하게 파악할 수 있어요"
+    comment_hint: "${category}할 위치, 증상, 원하는 일정등을 자유롭게 적어주세요"
 
 request_info:
-  title: 신청정보
+  title: "신청정보"
   label:
-    categories: 어떤 수리가 필요하세요?
-    answers: $category시 체크 할 정보가 있어요
-    address: 시공할 주소를 확인해주세요
-    place_type: 어떤 형태의 공간인가요?
-    is_resident: 거주 중 이신가요??
-    etc: 추가로 전달하고 싶은 내용이 있나요?
-  cancel: 신청을 취소 할게요
+    categories: "어떤 수리가 필요하세요?"
+    answers: "$category시 체크 할 정보가 있어요"
+    address: "시공할 주소를 확인해주세요"
+    place_type: "어떤 형태의 공간인가요?"
+    is_resident: "거주 중 이신가요??"
+    etc: "추가로 전달하고 싶은 내용이 있나요?"
+  cancel: "신청을 취소 할게요"
   cancel_dialog:
-    title: 견적 신청을 취소 할까요?
-    message: 견적 신청를 진행하지 않으시겠어요?\n신청을 취소하면 진행이 종료되고 모든 진행이 취소 됩니다
-    cancel_button: 신청 취소하기
+    title: "견적 신청을 취소 할까요?"
+    message: "견적 신청를 진행하지 않으시겠어요?\n신청을 취소하면 진행이 종료되고 모든 진행이 취소 됩니다"
+    cancel_button: "신청 취소하기"
 
 accept_question:
-  title: 추가질문
-  label: 정확한 안내를 위해 몇 가지만 더 여쭤볼게요
-  hint: 내용을 입력해주세요
-  button: 답변 보내기
-  error: 아직 작성되지 않은 답변이 있어요.
+  title: "추가질문"
+  label: "정확한 안내를 위해 몇 가지만 더 여쭤볼게요"
+  hint: "내용을 입력해주세요"
+  button: "답변 보내기"
+  error: "아직 작성되지 않은 답변이 있어요."
 
 estimate:
-  title: 견적서
+  title: "견적서"
   created_at: "견적 발행일 ${date: DateFormat('yyyy.MM.dd')}"
-  total_amount: 총 합계금액
-  vat_included: VAT 포함
+  total_amount: "총 합계금액"
+  vat_included: "VAT 포함"
   detailed_cost:
-    title: 세부 내용
-    labels: 내용/수량/단가
+    title: "세부 내용"
+    labels: "내용/수량/단가"
   confirm_card:
-    title: 시공을 진행해 볼까요?
-    message: 발송된 견적으로 시공이 진행돼요 😊
-    cancel: 안 할래요
-    confirm: 시공 진행할게요
+    title: "시공을 진행해 볼까요?"
+    message: "발송된 견적으로 시공이 진행돼요 😊"
+    cancel: "안 할래요"
+    confirm: "시공 진행할게요"
   payment_card:
-    title: 결제는 언제든 편한 시점에
-    message: 시공 전·중·후 언제든 결제 가능해요.\n시공 완료 전이라도 안심하고 진행하셔도 괜찮아요 😊
-    button: 결제하기
+    title: "결제는 언제든 편한 시점에"
+    message: "시공 전·중·후 언제든 결제 가능해요.\n시공 완료 전이라도 안심하고 진행하셔도 괜찮아요 😊"
+    button: "결제하기"
   available_on: "견적은 ${date: DateFormat('yyyy.MM.dd')}까지 유효하며, 이후 자동으로 만료돼요"
 
 history:
-  title: 기록 하마
-  message(rich): 하마와 함께\n총 $count 건 관리를 진행했어요
-  list_title: 이용 내역
-  count: $count 건
+  title: "기록 하마"
+  message(rich): "하마와 함께\n총 $count 건 관리를 진행했어요"
+  list_title: "이용 내역"
+  count: "$count 건"
   date: "${date: DateFormat('yyyy.MM.dd')}"
-  empty_message: 아직 기록된 관리 내역이 없어요\n하마와 함께 집 관리를 시작해 보세요😊
+  empty_message: "아직 기록된 관리 내역이 없어요\n하마와 함께 집 관리를 시작해 보세요😊"
 
 history_detail:
-  title: 상세정보
+  title: "상세정보"
   completed_at: "시공 완료 ${date: DateFormat('yyyy.MM.dd')}"
   label:
-    total_price: 총 합계금액
-    discount_price: 할인 금액
-    payment_info: 결제 정보
+    total_price: "총 합계금액"
+    discount_price: "할인 금액"
+    payment_info: "결제 정보"
   payment_info:
-    payment_completed: 결제 완료
+    payment_completed: "결제 완료"
     date: "${date: DateFormat('yyyy.MM.dd HH:mm:ss')}"
     label:
-      price: 결제 금액
-      date: 거래 일자
-      method: 결제 수단
-      number: 승인번호
+      price: "결제 금액"
+      date: "거래 일자"
+      method: "결제 수단"
+      number: "승인번호"
 
 payment:
-  title: 결제하기
-  owned_coupon: 보유 쿠폰
-  count: $count 건
-  original_price: 시공 금액
-  discount_price: 할인 금액
-  total_price: 총 결제 금액
-  button: 결제하기
+  title: "결제하기"
+  owned_coupon: "보유 쿠폰"
+  count: "$count 건"
+  original_price: "시공 금액"
+  discount_price: "할인 금액"
+  total_price: "총 결제 금액"
+  button: "결제하기"
 
 coupon:
-  title: 쿠폰
+  title: "쿠폰"
   description_with_category: "[${category}] ${description}"
   discount:
     percent: "${discount: NumberFormat('#,###')}% 할인"
     amount: "${discount: NumberFormat('#,###')}원 할인"
   expire_at: "~${date: DateFormat('yyyy.MM.dd')}까지"
-  applicable: 사용가능
-  not_applicable: 적용불가
-  info_message: 결제 단계에서 사용할 수 있어요.
+  applicable: "사용가능"
+  not_applicable: "적용불가"
+  info_message: "결제 단계에서 사용할 수 있어요."
 
 construction:
-  title: 시공하마
+  title: "시공하마"
 
 update_dialog:
-  title: 업데이트 알림
-  button: 업데이트 하기
+  title: "업데이트 알림"
+  button: "업데이트 하기"
 
 version_check_error_dialog:
-  title: 버전 체크 실패
-  message: 버전 체크에 실패하였습니다.\n네트워크 환경 확인 후 다시 시도해 주세요.
-  button: 앱 종료
+  title: "버전 체크 실패"
+  message: "버전 체크에 실패하였습니다.\n네트워크 환경 확인 후 다시 시도해 주세요."
+  button: "앱 종료"
