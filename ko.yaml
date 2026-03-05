@@ -22,6 +22,9 @@ common:
       positive: 좀 더 고민할게요
   date: "${date: DateFormat('yyyy.MM.dd')}"
 
+error:
+  invalid_url: 잘못된 형식의 URL 입니다.
+
 splash: 집 관리의 시작, 하마
 
 onboarding:
