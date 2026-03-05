@@ -24,6 +24,17 @@ common:
 
 splash: 집 관리의 시작, 하마
 
+onboarding:
+  button:
+    skip: skip
+    start: 하마 시작하기
+  messages:
+    - main: 집 관리, 올인원 케어\n이제 하마 하나로 끝
+    - main: A/S까지 책임지는 하마\n안심하고 맡기세요
+    - main: 언제든 필요할 때 바로,\n가격도 미리 확인 가능
+    - main: 하마와 함께
+      sub: 지금부터 우리 집\n관리를 시작해 볼까요?
+
 auth_fail_dialog:
   title: 본인인증 실패
 
