@@ -25,7 +25,8 @@ common:
 auth_message:
   login: "인증이 완료 되었어요."
   logout: "로그아웃 되었어요."
-  signIn: "가입이 완료 되었어요."
+  sign_in: "가입이 완료 되었어요."
+  change_phone_number: "전화번호가 변경 되었어요."
 
 error:
   invalid_url: "잘못된 형식의 URL 입니다."
