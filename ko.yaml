@@ -134,7 +134,6 @@ drawer:
   faq: "자주 묻는 질문"
   app_info: "앱 정보"
   terms: "이용약관"
-  open_source_licenses: "오픈소스 라이선스"
 
 account_info:
   title: "계정정보"
@@ -162,6 +161,7 @@ app_info:
     label: "버전 정보"
     lastest_version: "최신버전"
     update: "업데이트"
+  open_source_licenses: "오픈소스 라이선스"
   company:
     label: "사업자명"
     content: "주식회사 수리홈즈 파트너스"
