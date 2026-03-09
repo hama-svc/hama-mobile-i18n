@@ -124,6 +124,9 @@ home:
       title: "신청이 완료되었어요"
       message: "신청 내역과 진행 상황은\n내 집 관리에서 언제든 확인하실 수 있어요"
       button: "내 집 관리 확인하기"
+    exit:
+      title: "종료 하시겠습니까?"
+      button: '종료'
 
 drawer:
   title: "더보기"
