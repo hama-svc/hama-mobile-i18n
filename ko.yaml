@@ -197,9 +197,10 @@ login:
   bottom_sheet:
     title: "하마 이용을 위해 동의가 필요해요"
     accept_all: "모두 동의"
-    accept_all_description: "서비스 이용에 필수적인 최소한의 개인정보 수집 및 이용, 본인확인, 마케팅 정보 수신(선택), 맞춤형 광고 수신(선택)을 포함 합니다."
+    accept_all_description: "서비스 이용에 필수적인 최소한의 개인정보 수집 및 이용, 본인확인, 맞춤형 광고 수신(선택)을 포함 합니다."
     terms: "(필수) 서비스 이용 약관"
     privacy: "(필수) 개인정보 수집 및 이용"
+    third_party: "(필수) 개인정보 제3자 제공 동의"
     over14: "(필수) 만 14세 이상"
     verification: "(필수) 본인확인서비스 동의사항"
     marketing: "(선택) 맞춤형 광고 목적 개인정보 수집 및 이용"
