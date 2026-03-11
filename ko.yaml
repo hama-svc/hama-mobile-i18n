@@ -449,8 +449,9 @@ request:
 request_info:
   title: "신청정보"
   label:
-    categories: "어떤 서비스가 필요하세요?"
-    answers: "$category시 체크 할 정보가 있어요"
+    categories: "어떤 ${categoryName}가 필요하세요?"
+    categories_without_name: "어떤 서비스가 필요하세요?"
+    answers: "${categoryName}시 체크 할 정보가 있어요"
     etc: "추가로 전달하고 싶은 내용이 있나요?"
   cancel: "신청을 취소 할게요"
   cancel_dialog:
