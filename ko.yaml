@@ -262,9 +262,13 @@ sign_out:
     - "기타 사유"
   etc_hint: "기타 의견을 입력해주세요"
   button: "계정 삭제"
-  dialog:
+  confirm_dialog:
     title: "정말 계정을 삭제 할까요?"
     message: "계정이 삭제되면 이용 기록과 혜택이 모두 사리지고 다시 복구할 수 없어요."
+  progress_error_dialog:
+    title: "진행 중인 시공건이 있어요"
+    message: "계정을 삭제하려면 진행 중인 시공 신청을 먼저 취소하거나 완료해야 해요.\n신청 내역을 확인한 뒤 다시 진행해 주세요."
+    button: "확 인"
 
 service_progress:
   create_at: "${date: DateFormat('yyyy.MM.dd')}"
