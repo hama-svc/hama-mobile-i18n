@@ -6,6 +6,7 @@ metadata:
 common:
   button:
     ok: "확인"
+    ok2: "확 인"
     close: "닫기"
     cancel: "취소"
     later: "다음에"
@@ -63,7 +64,8 @@ onboarding:
       sub: "지금부터 우리 집\n관리를 시작해 볼까요?"
 
 auth_fail_dialog:
-  title: "본인인증 실패"
+  title: "본인인증에 실패했습니다"
+  message: "PASS 본인인증이 정상적으로\n완료되지 않았어요."
 
 home:
   home_care:
@@ -73,7 +75,7 @@ home:
       big_button: "수리·보수"
       small_button1: "청소"
       small_button2: "인테리어"
-    sub_menus: [ 레이디, 긴급출동, A/S요청, 펫 가구 ]
+    sub_menus: [ "레이디", "긴급출동", "A/S요청", "펫 가구" ]
   introduction:
     title: "소개 하마"
     menu:
@@ -268,7 +270,6 @@ sign_out:
   progress_error_dialog:
     title: "진행 중인 시공건이 있어요"
     message: "계정을 삭제하려면 진행 중인 시공 신청을 먼저 취소하거나 완료해야 해요.\n신청 내역을 확인한 뒤 다시 진행해 주세요."
-    button: "확 인"
 
 service_progress:
   create_at: "${date: DateFormat('yyyy.MM.dd')}"
