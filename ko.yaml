@@ -16,6 +16,7 @@ common:
   upload_photo:
     title: "사진 업로드 하기"
     message: "현장 사진을 올려주시면 필요한\n수리범위를 더 정확하게 파악할 수 있어요"
+    limit_message: "이미지는 최대 ${limit}장까지 업로드 가능합니다."
   resident: "거주 중"
   vacant: "공실"
   price: "${price: NumberFormat('#,###')}"
