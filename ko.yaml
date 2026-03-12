@@ -479,7 +479,7 @@ estimate:
   vat_included: "VAT 포함"
   detailed_cost:
     title: "세부 내용"
-    labels: "내용/수량/단가"
+    labels: "내용/수량/공급가"
   confirm_card:
     title: "시공을 진행해 볼까요?"
     message: "발송된 견적으로 시공이 진행돼요 😊"
