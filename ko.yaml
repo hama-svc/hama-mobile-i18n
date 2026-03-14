@@ -1,7 +1,7 @@
 # 언어 파일 정보
 metadata:
   # 언어 파일 버전(정수형) Firebase Remote Config i18n_info 의 version
-  version: 5
+  version: 6
 
 common:
   button:
