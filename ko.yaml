@@ -27,6 +27,7 @@ common:
     button:
       negative: "그만 할래요"
       positive: "좀 더 고민할게요"
+    cancel_message: "${categoryName} 견적 신청이 취소 되었어요."
   date: "${date: DateFormat('yyyy.MM.dd')}"
 
 auth_message:
@@ -440,7 +441,7 @@ request:
       address_check: "시공할 주소를 확인해주세요"
       image_and_comment: "현장 사진이나 참고할 내용이 있다면 알려주세요"
       place_type: "어떤 형태의 공간인가요?"
-      is_resident: "거주 중 이신가요??"
+      is_resident: "거주 중 이신가요?"
     button:
       done_select: "모두 선택했어요"
       input_address: "새 주소 입력하기"
