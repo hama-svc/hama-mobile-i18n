@@ -209,7 +209,6 @@ login:
     privacy: "(필수) 개인정보 수집 및 이용"
     third_party: "(필수) 개인정보 제3자 제공 동의"
     over14: "(필수) 만 14세 이상"
-    verification: "(필수) 본인확인서비스 동의사항"
     marketing: "(선택) 맞춤형 광고 목적 개인정보 수집 및 이용"
 
 auth_phone:
