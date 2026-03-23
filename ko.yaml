@@ -44,13 +44,18 @@ cropper_title: "Cropper"
 permission_dialog:
   camera:
     title: "카메라 권한이 필요해요"
-    message: "신청할 공간의 상태를 확인할 수 있도록\n사진 촬영 권한이 필요합니다."
+    message: "신청할 공간의 상태를 확인할 수 있도록\n카메라 권한이 필요합니다."
+    title_denied: "카메라 권한이 꺼져 있어요"
+    message_denied: "사진 촬영 기능을 사용하려면\n설정에서 카메라 권한을 허용해주세요."
   gallery:
     title: "사진 접근 권한이 필요해요"
-    message: "기기에 저장된 사진을 선택해\n서비스 신청시 첨부할 수 있습니다."
+    message: "신청할 공간의 상태를 확인할 수 있도록\n앨범 접근 권한이 필요합니다."
+    title_denied: "사진 접근 권한이 꺼져 있어요"
+    message_denied: "사진 업로드를 기능을 사용하시려면\n설정에서 앨범 접근 권한을 허용해주세요."
   buttons:
-    later: "다음에 하기"
-    allow: "허용 하기"
+    next: "게속하기"
+    go_to_settings: "설정으로 이동"
+
 
 splash: "집 관리의 시작, 하마"
 
