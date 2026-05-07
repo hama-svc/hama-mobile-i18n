@@ -20,7 +20,7 @@ common:
   resident: "거주 중"
   vacant: "공실"
   price: "${price: NumberFormat('#,###')}"
-  price_with_currency: "${price: NumberFormat('#,###')} 원"
+  price_with_currency: "${price: NumberFormat('#,###')}원"
   cancel_accept_dialog:
     title: "시공없이 마무리 할까요?"
     message: "모든 일정은 취소되며 시공은 진행되지 않아요.\n언제든 다시 견적부터 시작할 수 있어요."
@@ -324,6 +324,7 @@ service_progress:
   button:
     request_info: "신청 정보"
     estimate: "견적서"
+    bill: "청구서"
 
 my_house:
   title: "내 집 설정"
@@ -520,13 +521,23 @@ history_detail:
       method: "결제 수단"
       number: "승인번호"
 
-payment:
-  title: "결제하기"
-  owned_coupon: "보유 쿠폰"
-  count: "$count 건"
-  original_price: "시공 금액"
-  discount_price: "할인 금액"
-  total_price: "총 결제 금액"
+payment_summary:
+  title: "비용 결제"
+  label:
+    final_price: "최종 결제 비용"
+    reason: "금액 변동 사유"
+    coupon: "쿠폰"
+    owned_coupon: "보유 쿠폰"
+    address: "주소"
+    details: "청구 내역"
+    details_total_price: "VAT 포함 총합"
+  coupon:
+    select_coupon: "쿠폰 선택"
+    available: "적용가능"
+    available_count: "${count}장"
+    applying: "적용중"
+    price: "-${price: NumberFormat('#,###')}원"
+    title: "ㄴ $title"
   button: "결제하기"
 
 coupon:
