@@ -530,7 +530,12 @@ payment_summary:
     owned_coupon: "보유 쿠폰"
     address: "주소"
     details: "청구 내역"
+    details_coupon: "쿠폰 적용"
     details_total_price: "VAT 포함 총합"
+  price:
+    additional: "견적가 대비 ${price: NumberFormat('#,###')}원"
+    coupon: "쿠폰 -${price: NumberFormat('#,###')}원"
+    divider: ' | '
   coupon:
     select_coupon: "쿠폰 선택"
     available: "적용가능"
