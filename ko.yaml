@@ -78,10 +78,11 @@ home:
     title: "홈케어 하마"
     tooltip: "간편하게 견적받고 시공을 결정 하세요."
     menu:
-      big_button: "수리·보수"
-      small_button1: "청소"
-      small_button2: "인테리어"
-    sub_menus: [ "레이디", "긴급출동", "A/S요청", "펫 가구" ]
+      repair: "수리·보수"
+      cleaning: "청소"
+      interior: "인테리어"
+      lady: "레이디 서비스"
+      as: "A/S 서비스"
   introduction:
     title: "소개 하마"
     menu:
