@@ -420,6 +420,11 @@ address:
     address: "$zipNo $address"
     number_address: "[지번] $address"
 
+lady_intro:
+  title: "레이디 서비스"
+  dont_show_again: "다시보지 않기"
+  button: "레이디 서비스 이용하기"
+
 request:
   repair:
     title: "수리·보수"
@@ -439,6 +444,12 @@ request:
       title: "하마에서 이런 청소·정리가 가능해요"
       message: "간단한 정리부터 특수 청소까지\n하마의 청소·정리를 미리 확인해 보세요."
     category_label: "어떤 청소·정리가 필요하세요?"
+  lady:
+    title: "레이디 서비스"
+    card:
+      title: "수리를 맡기기 망설여지셨나요?"
+      message: "여성 전문가인 레이디에게\n편하게  맡겨보세요."
+    category_label: "어떤 수리가 필요하세요?"
   common:
     label:
       question: "${categoryName}시 체크할 정보가 있어요"
