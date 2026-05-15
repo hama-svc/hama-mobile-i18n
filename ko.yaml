@@ -29,6 +29,7 @@ common:
       positive: "좀 더 고민할게요"
     cancel_message: "${categoryName} 견적 신청이 취소 되었어요."
   date: "${date: DateFormat('yyyy.MM.dd')}"
+  do_not_show_again: "다시 보지 않기"
 
 auth_message:
   login: "인증이 완료 되었어요."
@@ -422,8 +423,15 @@ address:
 
 lady_intro:
   title: "레이디 서비스"
-  dont_show_again: "다시보지 않기"
   button: "레이디 서비스 이용하기"
+
+lady_popup:
+  title: "하마 레이디 서비스 출시"
+  message: ["기술에 섬세함을 더한", "하마의 수리•보수 여성 전문가 서비스", "입니다"]
+  sub_01: [ "혼자 거주하여", "외부인 방문이 조심스러운 1인 가구" ]
+  sub_02: [ "낮 시간대에", "단 둘이 집에 계시는 부모님" ]
+  sub_03: [ "남편 출근으로", "아이와 있는 시간이 걱정되는 아내분" ]
+  button: "레이디 서비스 알아보기"
 
 request:
   repair:
