@@ -530,19 +530,24 @@ history:
 
 history_detail:
   title: "상세정보"
-  completed_at: "시공 완료 ${date: DateFormat('yyyy.MM.dd')}"
+  view_receipt: "영수증보기"
   label:
-    total_price: "총 합계금액"
-    discount_price: "할인 금액"
-    payment_info: "결제 정보"
-  payment_info:
-    payment_completed: "결제 완료"
-    date: "${date: DateFormat('yyyy.MM.dd HH:mm:ss')}"
-    label:
-      price: "결제 금액"
-      date: "거래 일자"
-      method: "결제 수단"
-      number: "승인번호"
+    payment_date: "결제 완료일"
+    final_payment_amount: "최종 결제 금액"
+    vat_included: "(VAT포함)"
+    estimate_price: "견적가"
+    estimate_diff: "견적가 대비"
+    coupon_discount: "쿠폰 할인"
+    point_discount: "포인트 할인"
+    price_change_reason: "금액 변동 사유"
+    address: "주소"
+    estimate_details: "견적 내역"
+    estimate_total: "견적 총액"
+  diff_price: "${diff: NumberFormat('+#,###;-#,###')}원"
+  action_bar:
+    info: "A/S 신청 시 시공 상태에 따라 유상으로 전환될 수 있습니다.\n접수 시 확인 후 안내드려요."
+    as_history: "A/S 신청 내역"
+    as_apply: "A/S 신청하기"
 
 payment_summary:
   title: "비용 결제"
