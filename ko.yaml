@@ -513,11 +513,19 @@ estimate:
   available_on: "견적은 ${date: DateFormat('yyyy.MM.dd')}까지 유효하며, 이후 자동으로 만료돼요"
 
 history:
-  title: "기록 하마"
-  message(rich): "하마와 함께\n총 $count 건 관리를 진행했어요"
-  list_title: "이용 내역"
-  count: "$count 건"
+  title:
+    history: "기록 하마"
+    as: "A/S 서비스"
+  message:
+    as: "A/S를 신청할 시공 내역을\n선택해 주세요."
+    info: "A/S 신청 시 시공 상태에 따라 유상으로 전환될 수 있습니다.\n접수 시 확인 후 안내드려요."
+  year: "${year}년"
   date: "${date: DateFormat('yyyy.MM.dd')}"
+  label:
+    payment_date: "결제 완료일"
+    price: "결제 금액"
+    as_count: "A/S 신청"
+  as_count: "${count}회"
   empty_message: "아직 기록된 관리 내역이 없어요\n하마와 함께 집 관리를 시작해 보세요😊"
 
 history_detail:
