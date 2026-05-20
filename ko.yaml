@@ -523,7 +523,7 @@ payment_summary:
   price_and_reason:
     title: "최종 결제 비용 (VAT 포함)"
     reason: "금액 변동 사유"
-    additional: "견적가 대비 ${price: NumberFormat('#,###')}원"
+    additional: "견적가 대비 ${price: NumberFormat('+#,##0;-#,##0')}원"
     coupon: "쿠폰"
     coupon_price: "-${price: NumberFormat('#,###')}원"
     divider: ' | '
