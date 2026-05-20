@@ -491,10 +491,7 @@ estimate:
     message: "발송된 견적으로 시공이 진행돼요 😊"
     cancel: "안 할래요"
     confirm: "시공 진행할게요"
-  payment_card:
-    title: "결제는 언제든 편한 시점에"
-    message: "시공 전·중·후 언제든 결제 가능해요.\n시공 완료 전이라도 안심하고 진행하셔도 괜찮아요 😊"
-    button: "결제하기"
+  payment_description: "해당 서비스는 진행 중이며,\n결제는 시공 완료 후 최종 청구가 기준으로 진행됩니다."
   available_on: "견적은 ${date: DateFormat('yyyy.MM.dd')}까지 유효하며, 이후 자동으로 만료돼요"
 
 history:
