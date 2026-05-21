@@ -31,6 +31,15 @@ common:
   date: "${date: DateFormat('yyyy.MM.dd')}"
   do_not_show_again: "다시 보지 않기"
 
+category:
+  repair: "수리·보수"
+  interior: "인테리어"
+  cleaning: "청소·정리"
+  emergency: "긴급출동"
+  as: "A/S"
+  pet: "펫 가구"
+  lady: "레이디 서비스"
+
 auth_message:
   login: "인증이 완료 되었어요."
   logout: "로그아웃 되었어요."
@@ -512,6 +521,18 @@ estimate:
     button: "결제하기"
   available_on: "견적은 ${date: DateFormat('yyyy.MM.dd')}까지 유효하며, 이후 자동으로 만료돼요"
 
+as_request:
+  title: "A/S 서비스"
+  as_info:
+    title: "추가로 전달하고 싶은 내용이 있나요?"
+    comment_hint: "시공 이후 발생한 문제를 상세히 입력해 주세요."
+  complete_dialog:
+    title: "신청이 완료되었어요"
+    message: "신청 내역과 진행 상황은\n내 집 관리에서 언제든 확인하실 수 있어요"
+    button:
+      home: "홈으로"
+      info: "내 집 관리 확인하기"
+
 history:
   title:
     history: "기록 하마"
@@ -544,10 +565,11 @@ history_detail:
     estimate_details: "견적 내역"
     estimate_total: "견적 총액"
   diff_price: "${diff: NumberFormat('+#,###;-#,###')}원"
-  action_bar:
-    info: "A/S 신청 시 시공 상태에 따라 유상으로 전환될 수 있습니다.\n접수 시 확인 후 안내드려요."
-    as_history: "A/S 신청 내역"
-    as_apply: "A/S 신청하기"
+  bottom_description: "A/S 신청 시 시공 상태에 따라 유상으로 전환될 수 있습니다.\n접수 시 확인 후 안내드려요."
+  bottom_description_has_as: "해당 서비스의 A/S가 진행중으로\n서비스 완료 후 추가 신청이 가능합니다."
+  button:
+    history: "A/S 신청 내역"
+    request: "A/S 신청하기"
 
 payment_summary:
   title: "비용 결제"
