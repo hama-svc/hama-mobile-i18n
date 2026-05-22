@@ -293,16 +293,20 @@ service_progress:
     title: "접수 완료"
     description: "신청이 완료되었어요 😊\n하우스 마스터가 곧 확인할게요"
     message: "신청이 완료되었어요"
+    as_message: "신청이 접수되었어요"
   diagnosis:
     title: "하우스 마스터 진단"
     description: "추가 확인이 필요할 경우,\n하우스 마스터가 전화를 드릴 수 있어요 📞"
     message: "하우스 마스터가 신청 내용을 확인하고 있어요"
+    as_message: "하우스 마스터가 A/S 신청 내용을 확인하고 있어요"
   estimate:
     title: "견적 발송"
     description: "견적이 발송되었어요 📄\n견적을 먼저 확인해 보세요"
     message: "견적이 도착했어요"
     sub_message: "견적을 확인하고 시공을 진행해 보세요 😊"
     button: "견적을 확인할게요"
+    as_message: "A/S 진단이 완료되어 견적이 도착했어요."
+    as_sub_message: "견적을 확인하고 A/S를 진행해 보세요 😊"
   confirmed:
     title: "시공 결정"
     description: "시공을 진행할까요?\n7일 안에 진행 여부만 선택해 주세요"
@@ -311,17 +315,24 @@ service_progress:
     button:
       accept: "시공 진행할게요"
       reject: "안 할래요"
+      as_accept: "A/S 진행할게요"
+    as_title: "A/S 결정"
+    as_message: "A/S를 진행해 볼까요?"
   in_progress:
     title: "시공 진행"
     description: "방문 일정을 확인하고 🛠️\n전문 시공팀이 직접 방문할 예정이에요"
     message: "하우스 마스터와 조율 하고 시공을 진행돼요"
     sub_message: "방문 일정 조율과 세부 진행 안내를 도와드릴게요 😊"
+    as_title: "A/S 진행"
+    as_message: "하우스 마스터와 조율 하고 A/S가 진행돼요"
   payment:
     title: "비용 결제"
     description: "시공이 완료되었어요!\n결제를 진행하시면 모든 과정이 마무리 됩니다 💳"
     message: "시공이 완료되었어요"
     sub_message: "이제 결제를 진행하시면 거래가 완료 돼요😊"
     button: "결제하기"
+    as_description: "A/S가 완료되었어요!\n결제를 진행하시면 모든 과정이 마무리 됩니다 💳"
+    as_message: "A/S가 완료되었어요"
   visit:
     title: "방문 예정"
     message: "방문 예정 일정이 있어요"
@@ -515,10 +526,11 @@ estimate:
     message: "발송된 견적으로 시공이 진행돼요 😊"
     cancel: "안 할래요"
     confirm: "시공 진행할게요"
-  payment_card:
-    title: "결제는 언제든 편한 시점에"
-    message: "시공 전·중·후 언제든 결제 가능해요.\n시공 완료 전이라도 안심하고 진행하셔도 괜찮아요 😊"
-    button: "결제하기"
+  as_confirm_card:
+    title: "A/S를 진행해 볼까요?"
+    message: "현장 상황에 따라 최종 금액이 달라질 수 있어요. 😊"
+    cancel: "안 할래요"
+    confirm: "진행할게요"
   available_on: "견적은 ${date: DateFormat('yyyy.MM.dd')}까지 유효하며, 이후 자동으로 만료돼요"
 
 as_request:
@@ -532,6 +544,17 @@ as_request:
     button:
       home: "홈으로"
       info: "내 집 관리 확인하기"
+
+as_info:
+  title: "신청 정보"
+  as_info:
+    title: "추가로 전달하고 싶은 내용이 있나요?"
+  cancel: "신청을 취소 할게요"
+  cancel_dialog:
+    title: "A/S 신청을 취소할까요?"
+    message: "신청을 취소하면 진행이 종료되고 모든 진행이 취소됩니다. 취소 후에는 동일한 내용으로 다시 신청하실 수 있습니다."
+    cancel_button: "신청 취소하기"
+  cancel_message: "${categoryName} A/S 신청이 취소 되었어요."
 
 history:
   title:
