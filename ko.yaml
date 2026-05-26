@@ -572,6 +572,23 @@ history:
   as_count: "${count}회"
   empty_message: "아직 기록된 관리 내역이 없어요\n하마와 함께 집 관리를 시작해 보세요😊"
 
+as_history:
+  title: "A/S 내역"
+  date: "${date: DateFormat('yyyy.MM.dd')}"
+  accept:
+    label:
+      payment_date: "결제 완료일"
+      price: "결제 금액"
+      as_count: "A/S 신청"
+    as_count: "${count}회"
+  detail_title: "A/S 상세 내역"
+  empty_message: "조회된 A/S 상세 내역이 없습니다.\n진행 중인 A/S 건은 완료된 이후부터 확인이 가능합니다😊"
+  payment_label: "결제 비용"
+  payment_paid: "유상 - ${price: NumberFormat('#,###')}원"
+  payment_free: "무상"
+  request_content: "요청 내용"
+  view_receipt: "영수증보기"
+
 history_detail:
   title: "상세정보"
   view_receipt: "영수증보기"
