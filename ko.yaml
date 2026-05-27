@@ -531,6 +531,7 @@ estimate:
     message: "현장 상황에 따라 최종 금액이 달라질 수 있어요. 😊"
     cancel: "안 할래요"
     confirm: "진행할게요"
+  payment_description: "해당 서비스는 진행 중이며,\n결제는 시공 완료 후 최종 청구가 기준으로 진행됩니다."
   available_on: "견적은 ${date: DateFormat('yyyy.MM.dd')}까지 유효하며, 이후 자동으로 만료돼요"
 
 as_request:
@@ -616,7 +617,7 @@ payment_summary:
   price_and_reason:
     title: "최종 결제 비용 (VAT 포함)"
     reason: "금액 변동 사유"
-    additional: "견적가 대비 ${price: NumberFormat('#,###')}원"
+    additional: "견적가 대비 ${price: NumberFormat('+#,##0;-#,##0')}원"
     coupon: "쿠폰"
     coupon_price: "-${price: NumberFormat('#,###')}원"
     divider: ' | '
